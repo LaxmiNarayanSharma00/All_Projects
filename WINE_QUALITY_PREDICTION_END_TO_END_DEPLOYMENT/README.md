@@ -1,6 +1,3 @@
-Below is a sample `README.md` file tailored for your wine quality prediction project based on the directory structure you provided. It includes an overview, setup instructions, project structure, and usage details.
-
----
 
 # Wine Quality Prediction Project
 
@@ -155,4 +152,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-Feel free to modify this `README.md` to include more specific details, such as the machine learning algorithm used, evaluation metrics achieved, or additional instructions tailored to your project! Let me know if you'd like further refinements.

@@ -1,0 +1,15 @@
+.networkGraph {
+  background-color: var(--mantine-color-body);
+}
+
+.filters {
+  padding: rem(3px);
+}
+
+.zoomControl > div > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: black;
+  color: black;
+}

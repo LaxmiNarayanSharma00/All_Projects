@@ -1,0 +1,8 @@
+
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "7860:7860"

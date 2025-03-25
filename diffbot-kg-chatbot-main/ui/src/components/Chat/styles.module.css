@@ -1,0 +1,76 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  padding: var(--mantine-spacing-xs);
+  position: relative;
+  min-height: 0px;
+  height: 100%;
+}
+
+.outputText {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-content: flex-end;
+
+  & > div {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+
+  & .generatingIndicator {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: rem(5px);
+    margin-top: rem(2px);
+  }
+}
+
+.input {
+  flex: 0;
+  padding: var(--mantine-spacing-lg);
+  background-color: var(--mantine-color-body);
+  border-top: rem(1px) solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+}
+
+.inputTextarea {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.inputAction {
+  position: absolute;
+  bottom: rem(6px);
+  right: rem(8px);
+}
+
+.inputOptions {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: var(--mantine-spacing-xs);
+
+  & .mode {
+    white-space: nowrap;
+    font-size: 11px;
+    max-width: rem(300px);
+    margin-right: var(--mantine-spacing-xs);
+  }
+}

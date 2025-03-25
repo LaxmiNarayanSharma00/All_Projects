@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-lg">
+        <h1 class="text-2xl font-bold mb-6 text-center">Wine Quality Prediction</h1>
+        <form id="wineForm" class="space-y-4" method="POST" action="/predict">
+            <div>
+                <label for="fixedAcidity" class="block text-sm font-medium text-gray-700">Fixed Acidity</label>
+                <input type="number" step="0.01" id="fixedAcidity" name="fixedAcidity" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="volatileAcidity" class="block text-sm font-medium text-gray-700">Volatile Acidity</label>
+                <input type="number" step="0.01" id="volatileAcidity" name="volatileAcidity" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="citricAcid" class="block text-sm font-medium text-gray-700">Citric Acid</label>
+                <input type="number" step="0.01" id="citricAcid" name="citricAcid" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="residualSugar" class="block text-sm font-medium text-gray-700">Residual Sugar</label>
+                <input type="number" step="0.01" id="residualSugar" name="residualSugar" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="chlorides" class="block text-sm font-medium text-gray-700">Chlorides</label>
+                <input type="number" step="0.01" id="chlorides" name="chlorides" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="freeSulfurDioxide" class="block text-sm font-medium text-gray-700">Free Sulfur Dioxide</label>
+                <input type="number" id="freeSulfurDioxide" name="freeSulfurDioxide" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="totalSulfurDioxide" class="block text-sm font-medium text-gray-700">Total Sulfur Dioxide</label>
+                <input type="number" id="totalSulfurDioxide" name="totalSulfurDioxide" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="density" class="block text-sm font-medium text-gray-700">Density</label>
+                <input type="number" step="0.0001" id="density" name="density" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="pH" class="block text-sm font-medium text-gray-700">pH</label>
+                <input type="number" step="0.01" id="pH" name="pH" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="sulphates" class="block text-sm font-medium text-gray-700">Sulphates</label>
+                <input type="number" step="0.01" id="sulphates" name="sulphates" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <div>
+                <label for="alcohol" class="block text-sm font-medium text-gray-700">Alcohol</label>
+                <input type="number" step="0.1" id="alcohol" name="alcohol" class="mt-1 p-2 w-full border rounded-xl">
+            </div>
+
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-xl hover:bg-blue-600">Predict Quality</button>
+        </form>
+
+        <div id="result" class="mt-4 text-center text-lg font-bold"></div>
+    </div>
+</body>
+
+</html>

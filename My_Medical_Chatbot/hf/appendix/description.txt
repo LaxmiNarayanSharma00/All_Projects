@@ -1,0 +1,15 @@
+# AI Medical Interviewer: Overview
+
+## How to Use This Tool
+
+- **Interview Tab**: Launch an interactive session by clicking "Start Interview." Answer the AI’s questions via text input or voice recording, then press "Send" to proceed. Customize your experience using the settings panel—toggle audio output, select your preferred interviewer (Sarah or Aaron), and choose the number of questions (10–25). End the session early with "End Interview" if needed. Once complete, a detailed clinical report will be generated for download.
+- **Upload Document Tab**: Analyze existing patient data by uploading a TXT, PDF, or DOCX file. Select the desired language (e.g., English, Hindi, etc.), then click "Generate Report" to produce a concise clinical summary, available for immediate download.
+
+## Why Use This Tool?
+
+- **Efficient Medical Interviews**: Streamline patient assessments with structured, AI-driven interviews tailored to individual responses.
+- **Comprehensive Clinical Reports**: Automatically generate professional-grade reports for documentation, analysis, or sharing with healthcare teams.
+- **Insightful Document Analysis**: Quickly extract key insights from patient records, saving time and enhancing decision-making.
+- **Multilingual Support**: Conduct interviews and generate reports in multiple languages, including English, Hindi, Spanish, and more, broadening accessibility.
+
+This tool leverages advanced AI to support healthcare professionals, researchers, and individuals in understanding and documenting psychological and medical information with ease and precision.

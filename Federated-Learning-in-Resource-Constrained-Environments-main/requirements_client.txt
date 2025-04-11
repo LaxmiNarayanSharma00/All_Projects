@@ -1,0 +1,4 @@
+flwr
+opencv-python
+tensorflow
+scikit-learn

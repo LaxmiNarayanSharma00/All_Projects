@@ -1,0 +1,5 @@
+ei_deployed_model/*
+logs/
+saved_models/*
+/dataset_images_counts.txt
+/modelfile.eim

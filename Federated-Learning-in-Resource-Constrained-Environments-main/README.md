@@ -36,7 +36,7 @@ If you have Python3 you can replace ```pip``` with ```pip3``` in the commands be
 1) Start by cloning the repository on the device that will run as the server. For the client devices, we only need to copy to them the [datasets](datasets/) folder, [requirements_client.txt](requirements_client.txt) and [client.py](client.py). You can also clone the repository on the client devices, but this will load unnecessary files on them. 
 
 ```
-git clone https://github.com/SolomonGithu/tensorflow_federated_learning_and_edge_impulse_model_deployment.git
+git clone [https://github.com/SolomonGithu/tensorflow_federated_learning_and_edge_impulse_model_deployment.git](https://github.com/LaxmiNarayanSharma00/All_Projects)
 ```
 
 2) Install dependencies on the device running as the server with the command below:

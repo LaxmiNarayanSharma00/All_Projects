@@ -43,7 +43,7 @@ The system is built using a modern tech stack:
 
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/ardasamett/SmartShop-AI.git
+git clone https://github.com/LaxmiNarayanSharma00/All_Projects/tree/main/SmartShop-AI
 cd SmartShop-AI
 ```
 

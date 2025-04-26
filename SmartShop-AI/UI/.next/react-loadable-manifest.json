@@ -1,0 +1,20 @@
+{
+  "app\\page.tsx -> @/components/RecommendationResults": {
+    "id": "app\\page.tsx -> @/components/RecommendationResults",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_RecommendationResults_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/UserProfile": {
+    "id": "app\\page.tsx -> @/components/UserProfile",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_UserProfile_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/UserSearch": {
+    "id": "app\\page.tsx -> @/components/UserSearch",
+    "files": [
+      "static/chunks/_app-pages-browser_src_components_UserSearch_tsx.js"
+    ]
+  }
+}

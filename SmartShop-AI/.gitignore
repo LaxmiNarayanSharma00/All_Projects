@@ -1,0 +1,4 @@
+.env
+smatshop_ai
+UI/node_modules
+**/node_modules/
